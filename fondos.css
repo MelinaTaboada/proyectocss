@@ -1,0 +1,28 @@
+.grid-container{
+    display: grid;
+    background-color: coral;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container >div{
+  width: 25vw;
+  height: 30vw;
+  margin: 15px;
+  padding: 15px;
+  border: solid 2px black;
+    
+}
+
+.plano{
+    background-color: blueviolet;
+}
+
+.gradiente{
+    background: linear-gradient(to right,blueviolet,orange);
+}
+
+.imagen{
+    background-image: url(star-wars-wallpaper.jpg);
+}

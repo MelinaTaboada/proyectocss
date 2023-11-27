@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar a{
+    color: aliceblue;
+    padding: 40px;
+    text-decoration: none;
+    float: left;
+}
+
+.navbar a:hover{
+    background-color: cadetblue;
+}
+
+i{
+    padding: 0 5px;
+    float: left;
+}
+
+.introduccion{
+    margin: 0 150px;
+    text-align: center;
+}
+
+.responsive{
+    display:none
+}
+
+
+@media (max-width:600px){
+    .responsive{
+        display: block;
+        float: right;
+        padding: 10px;
+    }
+    a{
+        display: none;
+    }
+}
